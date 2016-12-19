@@ -10,6 +10,11 @@ return array(
     'BACK_JS_URL' => '/Back/Public/js/',
     'BACK_IMG_URL' => '/Back/Public/img/',
 
+
+    //配置路径,方便第三方功能包文件的访问
+    'PLUGIN_URL' =>'/plugin/',
+
+
     /* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     // 数据库类型
     'DB_HOST'               =>  'localhost', // 服务器地址
