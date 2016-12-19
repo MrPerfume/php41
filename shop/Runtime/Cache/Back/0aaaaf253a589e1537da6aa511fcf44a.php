@@ -9,11 +9,11 @@
         <title>管理中心 v1.0</title>
     </head>
     <frameset border=0 framespacing=0 rows="60, *" frameborder=0>
-        <frame name=head src="./head.html" frameborder=0 noresize scrolling=no>
-            <frameset cols="170, *">
-                <frame name=left src="./left.html" frameborder=0 noresize />
-                <frame name=right src="./right.html" frameborder=0 noresize scrolling=yes />
-            </frameset>
+        <frame name=head src="/index.php/Back/Index/head.html" frameborder=0 noresize scrolling=no>
+        <frameset cols="170, *">
+            <frame name=left src="/index.php/Back/Index/left.html" frameborder=0 noresize />
+            <frame name=right src="/index.php/Back/Index/right.html" frameborder=0 noresize scrolling=yes />
+        </frameset>
     </frameset>
     <noframes>
     </noframes>
