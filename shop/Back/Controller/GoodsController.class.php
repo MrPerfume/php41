@@ -14,5 +14,8 @@ class GoodsController extends Controller {
     public function upd(){
         $this -> display();
     }
+    public function zhanshi(){
+        $this -> display();
+    }
 
 }
