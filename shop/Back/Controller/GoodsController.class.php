@@ -19,7 +19,7 @@ class GoodsController extends Controller {
 
             //对富文本编辑器原生内容进行过滤，方式xss攻击
             //htmlpurifier过滤
-            //$data['goods_introduce'] = \fanXSS($_POST['goods_introduce']);
+            $data['goods_introduce'] = \fanXSS($_POST['goods_introduce']);
 
             if($goods -> add($data)){
                 $this ->success('添加商品成功', U('showlist'), 2);
