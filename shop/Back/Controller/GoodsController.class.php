@@ -3,9 +3,15 @@ namespace Back\Controller;
 use Think\Controller;
 
 class GoodsController extends Controller {
-    public function showlist(){
-       // $goods=D('Goods');
-       // dump($goods);
+    function showlist(){
+        $goods = new \Model\GoodsModel();
+        $nowinfo = $goods -> fetchData();
+
+        $info = $nowinfo['pageinfo']; //当前页数据信息
+        $pagelist = $nowinfo['pagelist'];//页码列表信息
+
+        $this -> assign('info',$info);
+        $this -> assign('pagelist',$pagelist);
         $this -> display();
     }
     public function tianjia(){

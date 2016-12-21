@@ -91,4 +91,25 @@ class GoodsModel extends Model{
 
 
     }
+
+    //给后台获得商品列表信息，有"分页"要求
+    function fetchData(){
+        //① 获得商品总条数
+        $total = $this -> count();
+        $per = 5;
+
+        //② 实例化分页类Page对象
+        $page = new \Common\Tools\Page($total,$per);
+
+        //③ 获得分页信息
+        $pageinfo = $this -> order('goods_id desc')->limit($page->offset,$per)->select();
+
+        //④ 获得页码列表信息
+        $pagelist = $page -> fpage(array(3,4,5,6,7,8));
+
+        return array(
+            'pageinfo'=>$pageinfo,
+            'pagelist'=>$pagelist
+        );
+    }
 }

@@ -14,6 +14,9 @@ return array(
     //配置路径,方便第三方功能包文件的访问
     'PLUGIN_URL' =>'/plugin/',
 
+    //定义网站的域名地址（可以方便图片的显示）；
+    'SITE_URL'=>'http://web.php41.com/',
+
     //给shop/Common定义访问路径
     'COMMON_URL' => '/Common/',
 
