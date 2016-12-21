@@ -748,3 +748,139 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
 
+[ 2016-12-21T19:12:27+08:00 ] 127.0.0.1 /index.php/Back/Goods/upd/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-12-21T19:12:53+08:00 ] 127.0.0.1 /index.php/Back/Goods/upd/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: info C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\7e2c8db72b09d4f0b9bd13353285de7e.php 第 101 行.
+NOTIC: [8] Undefined variable: info C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\7e2c8db72b09d4f0b9bd13353285de7e.php 第 105 行.
+NOTIC: [8] Undefined variable: info C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\7e2c8db72b09d4f0b9bd13353285de7e.php 第 109 行.
+NOTIC: [8] Undefined variable: info C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\7e2c8db72b09d4f0b9bd13353285de7e.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-12-21T19:13:47+08:00 ] 127.0.0.1 /index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `php41_goods` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php41_goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `php41_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000947s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2016-12-21T19:13:50+08:00 ] 127.0.0.1 /index.php/Back/Goods/upd/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `php41_goods` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `php41_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `php41_goods_pics` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `php41_goods_pics` WHERE `goods_id` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-12-21T19:13:56+08:00 ] 127.0.0.1 /index.php/Back/Goods/upd/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `php41_goods` [ RunTime:0.0358s ]
+SQL: UPDATE `php41_goods` SET `goods_name`='sansumg',`goods_price`='5188.00',`goods_introduce`='',`goods_weight`='0',`upd_time`='1482318836' WHERE `goods_id` = 3 [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-12-21T19:13:59+08:00 ] 127.0.0.1 /index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `php41_goods` [ RunTime:0.0499s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php41_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `php41_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+

@@ -38,7 +38,28 @@ class GoodsController extends Controller {
     }
     
     public function upd(){
-        $this -> display();
+        //两个逻辑：展示、收集
+        $goods = new \Model\GoodsModel();
+        if(IS_POST){
+            $data = $goods -> create();
+            if($goods -> save($data))
+                $this -> success('修改商品成功', U('showlist'), 2);
+            else
+                $this -> error('修改商品失败', U('upd',array('goods_id'=>$data['goods_id'])), 2);
+        }else{
+            $goods_id = I('get.goods_id'); //接收被修改商品的goods_id
+            $info = $goods->find($goods_id);//查询被修改商品的信息
+
+            /*************获得相册信息*************/
+            $picsinfo = D('GoodsPics')->where(array('goods_id'=>$goods_id))->select();
+            if(!empty($picsinfo))
+                $this -> assign('picsinfo',$picsinfo);
+            /*************获得相册信息*************/
+
+
+            $this -> assign('info',$info);
+            $this -> display();
+        }
     }
 
 }
