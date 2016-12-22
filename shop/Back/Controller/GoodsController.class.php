@@ -62,4 +62,20 @@ class GoodsController extends Controller {
         }
     }
 
+    //删除单个相册图片
+    function delPics(){
+        $pics_id = I('get.pics_id');
+        //查询图片并
+        $info = D('GoodsPics')->find($pics_id);
+        //①删除相册图片[物理删除]
+        unlink($info['pics_big']);
+        unlink($info['pics_small']);
+
+        //②删除数据记录信息
+        $z = D('GoodsPics')->delete($pics_id); //返回删除记录条数,1条
+        if($z){
+            echo "删除成功！";
+        }
+    }
+
 }
