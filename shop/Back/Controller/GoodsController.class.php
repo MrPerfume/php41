@@ -78,4 +78,17 @@ class GoodsController extends Controller {
         }
     }
 
+    //删除商品
+    function delGoods(){
+        $goods_id = I('get.goods_id');  //获得被删除商品的id信息
+        $goods = D('Goods');
+        $z = $goods -> setField(array('goods_id'=>$goods_id,'is_del'=>'删除'));
+        //setField()内部有调用save()方法，
+        if($z){
+            echo json_encode(array('status'=>1)); //ok  99%
+        }else{
+            echo json_encode(array('status'=>2)); //fail 1%
+        }
+    }
+
 }

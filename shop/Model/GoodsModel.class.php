@@ -102,7 +102,7 @@ class GoodsModel extends Model{
         $page = new \Common\Tools\Page($total,$per);
 
         //③ 获得分页信息
-        $pageinfo = $this -> order('goods_id desc')->limit($page->offset,$per)->select();
+        $pageinfo = $this ->where(array('is_del'=>'不删除'))-> order('goods_id desc')->limit($page->offset,$per)->select();
 
         //④ 获得页码列表信息
         $pagelist = $page -> fpage(array(3,4,5,6,7,8));
