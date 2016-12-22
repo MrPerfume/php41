@@ -28,7 +28,7 @@ class GoodsController extends Controller {
             $data['goods_introduce'] = \fanXSS($_POST['goods_introduce']);
 
             if($goods -> add($data)){
-                $this ->success('添加商品成功', U('showlist'), 2);
+                $this ->success('添加商品成功', U('showlist'), 1);
             }else{
                 $this ->error('添加商品失败', U('tianjia'), 2);
             }
