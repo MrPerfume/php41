@@ -9,6 +9,15 @@ class GoodsController extends Controller {
 
         $info = $nowinfo['pageinfo']; //当前页数据信息
         $pagelist = $nowinfo['pagelist'];//页码列表信息
+      //为单独页面设置面包屑
+        $bread = array(
+            'first' => '商品管理',
+            'second' => '商品列表',
+            'linkTo' => array(
+                '【添加商品】',U('Goods/tianjia')
+            ),
+        );
+        $this -> assign('bread',$bread);
 
         $this -> assign('info',$info);
         $this -> assign('pagelist',$pagelist);
@@ -21,6 +30,8 @@ class GoodsController extends Controller {
             //$_POST['add_time'] = time();
             //$_POST['upd_time'] = time();
             //if($goods -> add($_POST)){
+            //为单独页面设置面包屑
+
             $data = $goods -> create();
 
             //对富文本编辑器原生内容进行过滤，方式xss攻击
@@ -33,6 +44,15 @@ class GoodsController extends Controller {
                 $this ->error('添加商品失败', U('tianjia'), 2);
             }
         }else{//展示表单
+            //顺便添加面包屑
+            $bread = array(
+                'first' => '商品管理',
+                'second' => '添加商品',
+                'linkTo' => array(
+                    '【展示商品】',U('Goods/showlist')
+                ),
+            );
+            $this -> assign('bread',$bread);
             $this -> display();
         }
     }
