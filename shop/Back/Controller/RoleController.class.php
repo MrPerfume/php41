@@ -31,7 +31,7 @@ class RoleController extends Controller {
             //通过“瞻前顾后”机制实现数据制作role_auth_ids/role_auth_ac(权限分配)
             $data = $role -> create();
             if($role -> save($data)){
-                $this -> success('分配权限成功',U('showlist'),2);
+                $this -> success('分配权限成功',U('showlist'),1);
             }else{
                 $this -> error('分配权限失败',U('distribute',array('role_id',I('get.role_id'))),2);
             }
