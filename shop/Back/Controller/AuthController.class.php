@@ -31,7 +31,7 @@ class AuthController extends Controller {
             $data = $auth -> create();
             //通过_after_insert()方法实现path和level两个字段维护
             if($auth->add($data)){
-                $this ->success('添加权限成功', U('showlist'), 2);
+                $this ->success('添加权限成功', U('showlist'), 0.5);
             }else{
                 $this ->error('添加权限失败', U('tianjia'), 2);
             }
