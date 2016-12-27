@@ -1,8 +1,8 @@
 <?php
 namespace Back\Controller;
-use Think\Controller;
+use Common\Tools\BackController;
 
-class GoodsController extends Controller {
+class GoodsController extends BackController {
     function showlist(){
         $goods = new \Model\GoodsModel();
         $nowinfo = $goods -> fetchData();

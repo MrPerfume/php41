@@ -1,9 +1,10 @@
 <?php
 namespace Back\Controller;
-use Think\Controller;
+use Common\Tools\BackController;
 
-class AdminController extends Controller {
+class AdminController extends BackController {
     public function login(){
+        layout(false);//不使用布局
         if(IS_POST){
           //  dump($_POST);
            // exit;

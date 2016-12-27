@@ -1,8 +1,8 @@
 <?php
 namespace Back\Controller;
-use Think\Controller;
+use Common\Tools\BackController;
 
-class AuthController extends Controller {
+class AuthController extends BackController {
     function showlist()
     {
         //获得权限列表信息

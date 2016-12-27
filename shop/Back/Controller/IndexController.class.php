@@ -1,8 +1,8 @@
 <?php
 namespace Back\Controller;
-use Think\Controller;
+use Common\Tools\BackController;
 
-class IndexController extends Controller {
+class IndexController extends BackController {
     function __construct(){
         parent::__construct();//先执行父类构造方法
         layout(false); // 临时关闭当前模板的布局功能
