@@ -60,4 +60,22 @@ class AdminController extends Controller {
             echo json_encode(array('status'=>2));
         }
     }
+
+
+//展示管理员列表
+    function showlist(){
+        $bread = array(
+            'first' => '管理员管理',
+            'second' => '管理员列表',
+            'linkTo' => array(
+                '【添加管理员】',U('Admin/tianjia')
+            ),
+        );
+        $this -> assign('bread',$bread);
+
+        $info = D('Manager')->alias('m')->join('LEFT JOIN __ROLE__ r on m.mg_role_id=r.role_id')->field('m.*,r.role_name')->select();
+        //SELECT m.*,r.role_name FROM php41_manager m LEFT JOIN php41_role r on m.mg_role_id=r.role_id
+        $this -> assign('info',$info);
+        $this -> display();
+    }
 }
