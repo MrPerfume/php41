@@ -1,0 +1,628 @@
+[ 2016-12-27T23:04:39+08:00 ] 127.0.0.1 /index.php/back/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: bread C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\fe9a96bc90181c859e6d01eee972ee01.php 第 17 行.
+NOTIC: [8] Undefined variable: bread C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\fe9a96bc90181c859e6d01eee972ee01.php 第 17 行.
+NOTIC: [8] Undefined variable: bread C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\fe9a96bc90181c859e6d01eee972ee01.php 第 19 行.
+NOTIC: [8] Undefined variable: bread C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\fe9a96bc90181c859e6d01eee972ee01.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011278s ]
+
+[ 2016-12-27T23:04:40+08:00 ] 127.0.0.1 /index.php/Back/Admin/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-12-27T23:04:53+08:00 ] 127.0.0.1 /index.php/Back/Admin/checkCode.html?code=airf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-12-27T23:05:00+08:00 ] 127.0.0.1 /index.php/Back/Admin/checkCode.html?code=ajrf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-12-27T23:05:02+08:00 ] 127.0.0.1 /index.php/back/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `php41_manager` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `php41_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '123456' LIMIT 1   [ RunTime:0.0044s ]
+
+[ 2016-12-27T23:05:02+08:00 ] 127.0.0.1 /index.php/Back/Admin/checkCode.html?code=ajrf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-12-27T23:05:02+08:00 ] 127.0.0.1 /index.php/Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-12-27T23:05:03+08:00 ] 127.0.0.1 /index.php/Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_level=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_level=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-12-27T23:05:03+08:00 ] 127.0.0.1 /index.php/Back/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-12-27T23:05:03+08:00 ] 127.0.0.1 /index.php/Back/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2016-12-27T23:05:08+08:00 ] 127.0.0.1 /index.php/Back/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `php41_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-12-27T23:05:09+08:00 ] 127.0.0.1 /index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载控制器:Auth
+
+[ 2016-12-27T23:05:11+08:00 ] 127.0.0.1 /index.php/Back/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `php41_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-12-27T23:05:15+08:00 ] 127.0.0.1 /index.php/Back/Role/distribute/role_id/50.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `php41_role` WHERE `role_id` = 50 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_level=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_level=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-12-27T23:05:21+08:00 ] 127.0.0.1 /index.php/Back/Role/distribute/role_id/50.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0464s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_id in (101,104,105,102,107,109) )  [ RunTime:0.0014s ]
+SQL: UPDATE `php41_role` SET `role_auth_ids`='101,104,105,102,107,109',`role_auth_ac`='Goods-showlist,Goods-tianjia,Order-showlist,Order-dayin' WHERE `role_id` = 50 [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-12-27T23:05:23+08:00 ] 127.0.0.1 /index.php/Back/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `php41_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-12-27T23:05:26+08:00 ] 127.0.0.1 /index.php/Back/Role/distribute/role_id/50.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `php41_role` WHERE `role_id` = 50 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_level=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_level=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-12-27T23:05:29+08:00 ] 127.0.0.1 /index.php/Back/Role/distribute/role_id/50.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0365s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `php41_auth` WHERE ( auth_id in (101,104,105,102,109) )  [ RunTime:0.0005s ]
+SQL: UPDATE `php41_role` SET `role_auth_ids`='101,104,105,102,109',`role_auth_ac`='Goods-showlist,Goods-tianjia,Order-dayin' WHERE `role_id` = 50 [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-12-27T23:05:31+08:00 ] 127.0.0.1 /index.php/Back/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `php41_role` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `php41_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\9d9af0f1b3c9c1c89361da9610164efb.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-12-27T23:11:11+08:00 ] 127.0.0.1 /index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `php41_auth` ORDER BY auth_path  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: role_name C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 34 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-12-27T23:12:28+08:00 ] 127.0.0.1 /index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `php41_auth` ORDER BY auth_path  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 32 行.
+NOTIC: [8] Undefined index: role_auth_ids C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 35 行.
+NOTIC: [8] Undefined index: role_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-12-27T23:13:33+08:00 ] 127.0.0.1 /index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014843s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `php41_auth` ORDER BY auth_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009817s ]
+
+[ 2016-12-27T23:13:35+08:00 ] 127.0.0.1 /index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `php41_auth` ORDER BY auth_path  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-12-27T23:15:01+08:00 ] 127.0.0.1 /index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `php41_auth` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `php41_auth` ORDER BY auth_path  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\WWW\php41\shop\Runtime\Cache\Back\a1f63f45dcb11bc4cea5c7353aaf7c62.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
