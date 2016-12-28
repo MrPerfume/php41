@@ -1,58 +1,36 @@
-<!--
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>登录商城</title>
-    <link rel="stylesheet" href="{$Think.config.CSS_URL}base.css" type="text/css">
-    <link rel="stylesheet" href="{$Think.config.CSS_URL}global.css" type="text/css">
-    <link rel="stylesheet" href="{$Think.config.CSS_URL}header.css" type="text/css">
-    <link rel="stylesheet" href="{$Think.config.CSS_URL}login.css" type="text/css">
-    <link rel="stylesheet" href="{$Think.config.CSS_URL}footer.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}base.css" type="text/css" />
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}global.css" type="text/css" />
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}header.css" type="text/css" />
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}login.css" type="text/css" />
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}footer.css" type="text/css" />
+    <meta property="qc:admins" content="2666047133605411516633" />
 </head>
 <body>
-&lt;!&ndash; 顶部导航 start &ndash;&gt;
-<div class="topnav">
-    <div class="topnav_bd w990 bc">
-        <div class="topnav_left">
-
-        </div>
-        <div class="topnav_right fr">
-            <ul>
-                <li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
-                <li class="line">|</li>
-                <li>我的订单</li>
-                <li class="line">|</li>
-                <li>客户服务</li>
-
-            </ul>
-        </div>
-    </div>
-</div>
-&lt;!&ndash; 顶部导航 end &ndash;&gt;
+<include file="Pub/navigator" />
 
 <div style="clear:both;"></div>
 
-&lt;!&ndash; 页面头部 start &ndash;&gt;
+<!-- 页面头部 start -->
 <div class="header w990 bc mt15">
     <div class="logo w990">
         <h2 class="fl"><a href="index.html"><img src="{$Think.config.IMG_URL}logo.png" alt="京西商城"></a></h2>
     </div>
 </div>
-&lt;!&ndash; 页面头部 end &ndash;&gt;
+<!-- 页面头部 end -->
 
-
-
-         {__CONTENT__}
-
-
-
+{/*__CONTENT__代表具体不同模板文件内容*/}
+{__CONTENT__}
 
 <div style="clear:both;"></div>
-&lt;!&ndash; 底部版权 start &ndash;&gt;
+<!-- 底部版权 start -->
 <div class="footer w1210 bc mt15">
     <p class="links">
-        <a href="">关于我们</a> |
+        <a href="">关于ta们</a> |
         <a href="">联系我们</a> |
         <a href="">人才招聘</a> |
         <a href="">商家入驻</a> |
@@ -74,7 +52,6 @@
         <a href=""><img src="{$Think.config.IMG_URL}beian.gif" alt="" /></a>
     </p>
 </div>
-&lt;!&ndash; 底部版权 end &ndash;&gt;
-
+<!-- 底部版权 end -->
 </body>
-</html>-->
+</html>
