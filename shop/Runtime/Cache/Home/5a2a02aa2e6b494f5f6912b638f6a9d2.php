@@ -16,6 +16,37 @@
     <meta property="qc:admins" content="2666047133605411516633" />
 </head>
 <body>
+<!-- 公共文件的引入-->
+<!-- 顶部导航 start -->
+<div class="topnav">
+    <div class="topnav_bd w1210 bc">
+        <div class="topnav_left">
+
+        </div>
+        <div class="topnav_right fr">
+            <?php if(!empty($_SESSION['user_name'])): ?><ul>
+                    <li>您好，【<?php echo (session('user_name')); ?>】欢迎来到京西！[<a href="<?php echo U('User/logout');?>">退出系统</a>] </li>
+                    <li class="line">|</li>
+                    <li>我的订单</li>
+                    <li class="line">|</li>
+                    <li>客户服务</li>
+                </ul>
+                <?php else: ?>
+                <ul>
+                    <li>您好，欢迎来到京西！[<a href="<?php echo U('User/login');?>">登录</a>] [<a href="<?php echo U('User/regist');?>">免费注册</a>] </li>
+                    <li class="line">|</li>
+                    <li>我的订单</li>
+                    <li class="line">|</li>
+                    <li>客户服务</li>
+                </ul><?php endif; ?>
+        </div>
+    </div>
+</div>
+<!-- 顶部导航 end -->
+
+<!--引入公共的jquery-->
+<script type="text/javascript" src="<?php echo (C("COMMON_URL")); ?>Js/jquery-1.11.3.min.js"></script>
+<!--引入公共的jquery-->
 
 
 <div style="clear:both;"></div>
