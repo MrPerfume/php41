@@ -33,7 +33,20 @@ class UserController extends Controller {
     }
 
     public function regist(){
-        $this->display();
+        //两个逻辑：展示、收集
+        $user = new \Model\UserModel();
+        if(IS_POST){
+
+            $data = $user -> create(); //过滤非法字段
+            if($user->add($data)){
+                $this -> success('注册成功',U('showRegister'),1);
+            }else{
+                $this -> error('注册失败',U('regist'),1);
+            }
+
+        }else{
+            $this -> display();
+        }
     }
 
 }
