@@ -62,7 +62,7 @@
 	</div>
 	<div class="login_bd">
 		<div class="login_form fl">
-			<form action="/index.php/home/user/login" method="post">
+			<form action="/index.php/Home/User/login.html" method="post">
 				<ul>
 					<li>
 						<label for="">用户名：</label>

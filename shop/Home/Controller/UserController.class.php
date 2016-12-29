@@ -50,7 +50,7 @@ class UserController extends Controller {
         //在当前页面调用file_get_contents()触发请求其他页面，不给传递session信息
         //可以自己手动get传递
 
-        $userinfo = file_get_contents("http://www.hulaquan.cc/Plugin/qq/user/get_user_info.php?access_token=".$_SESSION['access_token']."&appid=".$_SESSION['appid']."&openid=".$_SESSION['openid']);
+        $userinfo = file_get_contents("http://web.0911.com/Plugin/qq/user/get_user_info.php?access_token=".$_SESSION['access_token']."&appid=".$_SESSION['appid']."&openid=".$_SESSION['openid']);
 
         $userinfo = json_decode($userinfo,true);
         //把收集到的信息写入数据库
